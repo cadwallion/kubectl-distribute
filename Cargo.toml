@@ -1,6 +1,11 @@
 [package]
 name = "kubectl-distribute"
 authors = ["Andrew Nordman <cadwallion@gmail.com>"]
+categories = ["command-line-utilities"]
+description = "Distribute a file to multiple Kubernetes pods via label selector"
+license = "MIT"
+repository = "https://github.com/cadwallion/kubectl-distribute/"
+readme = "README.md"
 version = "0.1.0"
 edition = "2021"
 

@@ -12,7 +12,7 @@ use tokio::io::AsyncWriteExt;
 #[command(name = "kubectl-distribute")]
 #[command(author = "Andrew Nordman <cadwallion@gmail.com>")]
 #[command(version = "0.1")]
-#[command(about = "Distribute file(s) to multiple Kubernetes pods", long_about = None)]
+#[command(about = "Distribute a file to multiple Kubernetes pods via label selector", long_about = None)]
 struct Cli {
     /// The pod label value(s) used to select pods for distribution
     #[arg(short, long)]
