@@ -15,6 +15,16 @@ Options:
 
 ```
 
+## Installation
+
+`kubectl-distribute` can be installed via Cargo by running `cargo install kubectl-distribute`.  Alternatively, download the latest release from the [Releases page](https://github.com/cadwallion/kubectl-distribute/releases).
+
+```
+curl -OsL https://github.com/cadwallion/kubectl-distribute/releases/download/v0.1.0/kubectl-distribute-0.1.0-amd64
+chmod +x kubectl-distribute-0.1.0-amd64
+mv kubectl-distribute-0.1.0-amd64 /usr/local/bin/
+```
+
 ## Examples
 
 ```
