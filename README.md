@@ -22,4 +22,6 @@ Options:
 # kubectl-distribute -v rest-api -f hello.txt -p /data/config
 # Copy hello.txt to /data/config in all pods with a label "app" matching "rest-api" or "soap-api"
 # kubectl-distribute -v rest-api -v soap-api -f hello.txt -p /data/config
+# The real reason this thing exists; copy a Minecraft plugin to all Minecraft deployments in the cluster :D
+# kubectl-distribute -f minecraft-plugin.jar -p /data/plugins -v mc-survival -v mc-creative -v mc-lobby
 ```
